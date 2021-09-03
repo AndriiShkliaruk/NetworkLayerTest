@@ -20,6 +20,8 @@
 		F98F815F26E0EE8900AD5EAD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F814A26E0EE8900AD5EAD /* HTTPMethod.swift */; };
 		F98F816026E0EE8900AD5EAD /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F814B26E0EE8900AD5EAD /* EndPointType.swift */; };
 		F98F816126E0EE8900AD5EAD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F814C26E0EE8900AD5EAD /* NetworkError.swift */; };
+		F98F816326E2184800AD5EAD /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816226E2184800AD5EAD /* NetworkRouter.swift */; };
+		F98F816526E219F200AD5EAD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816426E219F200AD5EAD /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F98F814A26E0EE8900AD5EAD /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		F98F814B26E0EE8900AD5EAD /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 		F98F814C26E0EE8900AD5EAD /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F98F816226E2184800AD5EAD /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		F98F816426E219F200AD5EAD /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				F98F814A26E0EE8900AD5EAD /* HTTPMethod.swift */,
 				F98F814B26E0EE8900AD5EAD /* EndPointType.swift */,
 				F98F814C26E0EE8900AD5EAD /* NetworkError.swift */,
+				F98F816226E2184800AD5EAD /* NetworkRouter.swift */,
+				F98F816426E219F200AD5EAD /* Router.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -199,8 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98F815E26E0EE8900AD5EAD /* HTTPTask.swift in Sources */,
+				F98F816326E2184800AD5EAD /* NetworkRouter.swift in Sources */,
 				F98F815D26E0EE8900AD5EAD /* JSONParameterEncoder.swift in Sources */,
 				F98F815C26E0EE8900AD5EAD /* URLParameterEncoder.swift in Sources */,
+				F98F816526E219F200AD5EAD /* Router.swift in Sources */,
 				F98F815B26E0EE8900AD5EAD /* ParameterEncoding.swift in Sources */,
 				F98F812026E0EE4200AD5EAD /* ViewController.swift in Sources */,
 				F98F811C26E0EE4200AD5EAD /* AppDelegate.swift in Sources */,
