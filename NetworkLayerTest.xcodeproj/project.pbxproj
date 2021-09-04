@@ -22,6 +22,9 @@
 		F98F816126E0EE8900AD5EAD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F814C26E0EE8900AD5EAD /* NetworkError.swift */; };
 		F98F816326E2184800AD5EAD /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816226E2184800AD5EAD /* NetworkRouter.swift */; };
 		F98F816526E219F200AD5EAD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816426E219F200AD5EAD /* Router.swift */; };
+		F98F816726E228E900AD5EAD /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816626E228E900AD5EAD /* MovieEndPoint.swift */; };
+		F98F816A26E22CB200AD5EAD /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816926E22CB200AD5EAD /* MovieModel.swift */; };
+		F98F816C26E2326500AD5EAD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98F816B26E2326500AD5EAD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		F98F814C26E0EE8900AD5EAD /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		F98F816226E2184800AD5EAD /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		F98F816426E219F200AD5EAD /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F98F816626E228E900AD5EAD /* MovieEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
+		F98F816926E22CB200AD5EAD /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		F98F816B26E2326500AD5EAD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		F98F811A26E0EE4200AD5EAD /* NetworkLayerTest */ = {
 			isa = PBXGroup;
 			children = (
+				F98F816826E22CA500AD5EAD /* Model */,
 				F98F814126E0EE8900AD5EAD /* Networking */,
 				F98F811B26E0EE4200AD5EAD /* AppDelegate.swift */,
 				F98F811D26E0EE4200AD5EAD /* SceneDelegate.swift */,
@@ -110,6 +117,7 @@
 		F98F814626E0EE8900AD5EAD /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F98F816B26E2326500AD5EAD /* NetworkManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 		F98F814726E0EE8900AD5EAD /* EndPoint */ = {
 			isa = PBXGroup;
 			children = (
+				F98F816626E228E900AD5EAD /* MovieEndPoint.swift */,
 			);
 			path = EndPoint;
 			sourceTree = "<group>";
@@ -132,6 +141,14 @@
 				F98F816426E219F200AD5EAD /* Router.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		F98F816826E22CA500AD5EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F98F816926E22CB200AD5EAD /* MovieModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,16 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98F816A26E22CB200AD5EAD /* MovieModel.swift in Sources */,
 				F98F815E26E0EE8900AD5EAD /* HTTPTask.swift in Sources */,
 				F98F816326E2184800AD5EAD /* NetworkRouter.swift in Sources */,
 				F98F815D26E0EE8900AD5EAD /* JSONParameterEncoder.swift in Sources */,
 				F98F815C26E0EE8900AD5EAD /* URLParameterEncoder.swift in Sources */,
 				F98F816526E219F200AD5EAD /* Router.swift in Sources */,
+				F98F816726E228E900AD5EAD /* MovieEndPoint.swift in Sources */,
 				F98F815B26E0EE8900AD5EAD /* ParameterEncoding.swift in Sources */,
 				F98F812026E0EE4200AD5EAD /* ViewController.swift in Sources */,
 				F98F811C26E0EE4200AD5EAD /* AppDelegate.swift in Sources */,
 				F98F816126E0EE8900AD5EAD /* NetworkError.swift in Sources */,
 				F98F815F26E0EE8900AD5EAD /* HTTPMethod.swift in Sources */,
+				F98F816C26E2326500AD5EAD /* NetworkManager.swift in Sources */,
 				F98F811E26E0EE4200AD5EAD /* SceneDelegate.swift in Sources */,
 				F98F816026E0EE8900AD5EAD /* EndPointType.swift in Sources */,
 			);

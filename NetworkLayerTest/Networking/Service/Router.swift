@@ -23,9 +23,13 @@ class Router<EndPoint: EndPointType>: NetworkRouter {
         self.task?.resume()
     }
     
+    
+    
     func cancel() {
         self.task?.cancel()
     }
+    
+    
     
     fileprivate func buildRequest(from route: EndPoint) throws -> URLRequest {
         var request = URLRequest(url: route.baseURL.appendingPathComponent(route.path), cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 10.0)
